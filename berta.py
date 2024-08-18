@@ -4,7 +4,7 @@ import logging
 import spacy
 import sys
 import random
-import python_telegram_bot
+import python-telegram-bot
 
 from telegram import Update
 from telegram.ext import (
