@@ -270,7 +270,7 @@ def details_to_str(user_data):
     return "\n".join(details).join(["\n", "\n"])
 
 def main():
-    application = Application.builder().token("6827837317:AAGc5r3BBO0b3V0rws0me3lEbjI2Lq3y0ds").build()
+    application = Application.builder().token("TOKEN").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
